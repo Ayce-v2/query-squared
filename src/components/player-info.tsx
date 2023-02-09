@@ -28,7 +28,7 @@ export function PlayerInfo() {
         <table>
             <thead>
                 <tr>
-                <th>FirstName</th> <th>LastName</th> <th>ShotsAttempted</th> <th>ShotsMade</th> <th>Assists</th> <th>Blocks</th> <th>Rebounds</th> <th>Player ID</th>
+                <th>FirstName</th> <th>LastName</th> <th>ShotsAttempted</th> <th>ShotsMade</th> <th>Assist</th> <th>Blocks</th> <th>Rebounds</th> <th>Player ID</th>
                 </tr>
             </thead>
             <tbody>

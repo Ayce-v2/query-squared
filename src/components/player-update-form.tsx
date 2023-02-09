@@ -70,25 +70,25 @@ export function PlayerUpdateForm(){
 
     <label htmlFor="made">Insert New Amount of Shots Made</label> 
     <br></br>
-    <input id="made" type="number" placeholder="0" onChange={p => setForm({...form, madeBaskets:Number(p.target.value)})}/>
+    <input id="made" type="number" placeholder="1" onChange={p => setForm({...form, madeBaskets:Number(p.target.value)})}/>
     
     <br></br>
 
     <label htmlFor="rebounds"> Insert New Amount of Rebounds</label> 
     <br></br>
-    <input id="rebounds" type="number" placeholder="0" onChange={p => setForm({...form, rebounds:Number(p.target.value)})}/>
+    <input id="rebounds" type="number" placeholder="2" onChange={p => setForm({...form, rebounds:Number(p.target.value)})}/>
     
     <br></br>
 
     <label htmlFor="assists">Insert New Amount of Assists</label> 
     <br></br>
-    <input id="assists" type="number" placeholder="0" onChange={p => setForm({...form, assists:Number(p.target.value)})}/>
+    <input id="assists" type="number" placeholder="3" onChange={p => setForm({...form, assists:Number(p.target.value)})}/>
     
     <br></br>
 
     <label htmlFor="blocks">Insert New Amount of Blocks</label> 
     <br></br>
-    <input id="blocks" type="number" placeholder="0" onChange={p => setForm({...form, blocks:Number(p.target.value)})}/>
+    <input id="blocks" type="number" placeholder="4" onChange={p => setForm({...form, blocks:Number(p.target.value)})}/>
 
     <br></br>
 
